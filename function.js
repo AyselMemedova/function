@@ -1,6 +1,6 @@
 // //Kreditə götürdüyümüz pul və aylıq(necə ay ödəməliyəm)verilir. Pul bərabər hissələrə bölünərək hər ay verilməlidir. Məs:1000 manat götürülür, 3 ayliq.Ekrana yazdirilmalidir: 1-ci ay 333manat, 2-ci ay 333manat, 3-cu ay 334 manat;
 
-let kredit = parseFloat(prompt("Kredi meblegini daxil edin:"));
+let kredit = parseInt(prompt("Kredi meblegini daxil edin:"));
 let ay = parseInt(prompt("Nece aya bolunecek?"));
 let aylig = kredit / ay;
 for (var i = 1; i <= ay; i++) {
